@@ -39,3 +39,4 @@ using Xunit;
 
 [assembly: CollectionBehavior(CollectionBehavior.CollectionPerMethod, 
                               MaxParallelThreads =  2)]
+[assembly: TestCollectionOrdererAttribute("SeleniumWithXunit.Infrastructure.TestCollectionOrderer", "SeleniumWithXunit")]

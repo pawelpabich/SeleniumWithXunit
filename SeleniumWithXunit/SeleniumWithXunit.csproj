@@ -65,6 +65,8 @@
     <Compile Include="Infrastructure\BaseTest.cs" />
     <Compile Include="Infrastructure\BrowserFactory.cs" />
     <Compile Include="Infrastructure\BrowserPool.cs" />
+    <Compile Include="Infrastructure\CustomTaskFactory.cs" />
+    <Compile Include="Infrastructure\TestCollectionOrderer.cs" />
     <Compile Include="Pages\GitHubProjectMainPage.cs" />
     <Compile Include="GitHubTests.cs" />
     <Compile Include="Infrastructure\TypeExtensions.cs" />
