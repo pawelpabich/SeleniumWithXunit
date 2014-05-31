@@ -1,4 +1,5 @@
-﻿using Xunit;
+﻿using System.Threading;
+using Xunit;
 
 namespace SeleniumWithXunit
 {   
@@ -7,6 +8,13 @@ namespace SeleniumWithXunit
         [Fact]
         public void TestMethod1()
         {
+            Thread.Sleep(2000);
+        }
+
+        [Fact]
+        public void TestMethod2()
+        {
+            Thread.Sleep(2000);
         }
     }
 }
