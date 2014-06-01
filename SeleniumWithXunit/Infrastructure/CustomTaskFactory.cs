@@ -20,7 +20,4 @@ namespace SeleniumWithXunit.Infrastructure
             return task;
         }
     }
-
-    // TODO: Extend it with data from TC. E.g. grab a list of all tests via TC API and execute 
-    // the failed tests first and then tests in descending order of their execution time.
 }
